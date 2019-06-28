@@ -24,9 +24,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/assets/css/resume.css",
+              
+              
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery.easing/bower_components/jquery-easing-original/jquery.easing.min.js",
+              "src/assets/js/resume.min.js"
+            ]
           },
           "configurations": {
             "production": {
